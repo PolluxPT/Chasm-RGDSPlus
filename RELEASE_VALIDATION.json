@@ -1,0 +1,19 @@
+{
+  "release": "1.0.0",
+  "game_input": "Linux GOG 1.111 build 91697",
+  "hardware_basis": "Owner reports gameplay fine after Alpha 1.4, and startup-volume issue fixed after Alpha 1.5; supplied logs show saves, physical volume changes and exit restoration.",
+  "packaging_checks": [
+    "Automatic preparation succeeds with supported original assemblies",
+    "Second preparation uses validated cached outputs",
+    "Prepared game startup methods JIT compile",
+    "Unsupported assembly rejected without changing existing prepared executable",
+    "Runtime integrity check passes before and after local preparation",
+    "Public-tree byte-hash audit excludes matching proprietary input files; Content, game artwork, saves and logs excluded",
+    "Release ZIP integrity passes"
+  ],
+  "limits": [
+    "Packaging flow tested locally with supported files, not newly executed on RGDS+",
+    "Other devices and firmware unverified",
+    "Earlier logs contain occasional ALSA underruns; no universal performance guarantee"
+  ]
+}
